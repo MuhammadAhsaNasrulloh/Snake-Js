@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gc" class="game-canvas" width="400" height="400"></canvas>        
+    </div>
+    <div class="keys">
+        <a class="up arr" onclick="snake.action('up')">
+        <i class="chevron up"></i></a>
+        <br>
+        <a class="left arr" onclick="snake.action('left')">
+        <i class="chevron left"></i></a>
+        <br>
+        <a class="down arr" onclick="snake.action('down')">
+        <i class="chevron down"></i></a>
+        <br>
+        <a class="right arr" onclick="snake.action('rght')"></a>
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
